@@ -13,7 +13,7 @@ number = 30  # global
 
 
 def view():
-    global number 
+    global number
     print("global ", number)
 
     print(number + 1)
